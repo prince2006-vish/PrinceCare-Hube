@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "john DOe",
+        "address": "Local Resident",
+        "commentDescription": "best service in twon",
+        "rating": 5,
+        "pic": "https://static.thenounproject.com/png/801397-200.png",
+        "commentTile": "Great Service"
+    },
+    {
+        "id": 2,
+        "name": "Prince",
+        "address": "Local Resident",
+        "commentDescription": "best service in twon",
+        "rating": 5,
+        "pic": "https://static.thenounproject.com/png/801397-200.png",
+        "commentTile": "Great Service"
+
+    }, 
+    {
+        "id": 3,
+        "name": "Mr XYZ",
+        "address": "Local Resident",
+        "commentDescription": "best service in twon",
+        "rating": 5,
+        "pic": "https://static.thenounproject.com/png/801397-200.png",
+        "commentTile": "Great Service"
+
+    }
+]

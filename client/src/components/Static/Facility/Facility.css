@@ -1,0 +1,45 @@
+.facility-container-main{
+    background: #F8F9FA;
+    padding: 50px 0px;
+}
+.facilityHeading{
+
+    /* background: #F8F9FA; */
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    color: #0B3C5D;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.facility-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+   
+}
+.facility-container .card{
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+.facility-container .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    background-color: #F8F9FA;
+    color: w;
+}
+.facility-container i{
+    font-size: 50px;
+    color: #198754;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

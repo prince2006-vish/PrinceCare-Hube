@@ -1,0 +1,15 @@
+
+
+
+@media (max-width: 768px) {
+  .topbar-container {
+    display: none;
+  }
+}
+.topbar-container {
+
+  color: white;
+  padding-top: 2px;
+  text-align: center;
+  background: #198754;
+}

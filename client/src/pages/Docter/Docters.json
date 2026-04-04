@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. John Smith",
+        "speciality": "Cardiologist",
+        "pic": "/doctor1.jpg",
+        "degree":"MD in Cardiology",
+        "experience":"10 years",
+        "available": true,
+        "fee": 150,
+        "icon":"fa-solid fa-heart-pulse"
+
+    },
+    {
+        "id": 2,
+        "name": "Dr. Emily Davis",
+        "speciality": "Dermatologist",
+        "pic": "/doctor1.jpg",
+        "degree":"MD in Dermatology",
+        "experience":"12 years",
+        "available": false,
+        "fee": 350,
+        "icon":"fa-solid fa-heart-pulse"
+
+    },
+    {
+        "id": 1,
+        "name": "Dr. John Smith",
+        "speciality": "Cardiologist",
+        "pic": "/doctor1.jpg",
+        "degree":"MD in Cardiology",
+        "experience":"10 years",
+        "available": true,
+        "fee": 150,
+        "icon":"fa-solid fa-heart-pulse"
+
+    },
+    {
+        "id": 2,
+        "name": "Dr. Emily Davis",
+        "speciality": "Dermatologist",
+        "pic": "/doctor1.jpg",
+        "degree":"MD in Dermatology",
+        "experience":"12 years",
+        "available": false,
+        "fee": 350,
+        "icon":"fa-solid fa-heart-pulse"
+
+    }
+]

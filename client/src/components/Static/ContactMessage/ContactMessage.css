@@ -1,0 +1,41 @@
+.message-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px  0px 20px 0px;
+     background-color: #F8F9FA ;
+}
+.location-map{
+    box-shadow: 5px 5px rgb(207 207 207);
+}
+.mform{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.mform h1
+{
+    color: #0B3C5D; 
+}
+.mform input, textarea{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+   
+}
+.mform button{
+    padding: 10px;
+    background-color: #0B3C5D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.mform button:hover{
+    background-color: #11669f;
+    color: #ffffff;
+}

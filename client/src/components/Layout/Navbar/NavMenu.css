@@ -1,0 +1,32 @@
+li 
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 500;
+    
+    
+   
+}
+.navcolor{
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.navcolor:hover {
+    color: #20C997;
+    transition: color 0.3s ease;
+    
+}
+.button {
+    border: 1px solid #20C997;
+    font-weight: 500;
+}
+.button:hover{
+    background-color: #198754;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}

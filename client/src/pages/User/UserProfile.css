@@ -1,0 +1,8 @@
+.editmodal input{
+    padding: 2px 5px;
+    margin: 10px 0px;
+}
+.editmodal select{
+    width: 150px;
+    text-align: center;
+}

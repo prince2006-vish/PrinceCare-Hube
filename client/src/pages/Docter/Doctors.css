@@ -1,0 +1,56 @@
+.doc-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px; 
+
+}
+.doc-container .card{
+  padding: 10px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+ 
+}  
+.doc-container a{
+    text-decoration: none;
+    color: black;
+}
+.doc-container .card-body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.doc-container h6{
+    font-weight: bold;
+}
+.doc-container .card-footer{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(206, 200, 200)  ;
+}
+.doc-container .card:hover{
+    background-color: rgb(216, 255, 255);
+    cursor: pointer;
+}
+ 
+
+
+
+.docinfo-container .card-footer{
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+
+}
+.calender{
+    cursor: pointer;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid teal;
+    background-color: rgb(249, 250, 172);
+}
