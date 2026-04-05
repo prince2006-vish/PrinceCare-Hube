@@ -13,7 +13,7 @@ import {
 const router = express.Router();
 
 //create || post
-router.post("/create", userAuth, isAdmin, bookAppointment);
+router.post("/create", userAuth, bookAppointment);
 
 //get all || get
 router.get("/get-all", userAuth, isAdmin, getAllAppointments);
@@ -31,7 +31,7 @@ router.get("/get-user-appointments/:id", userAuth, getUserAppointments);
 router.get(
   "/get-user-appointment-details/:id",
   userAuth,
-  getUserAppointmentDetails
+  getUserAppointmentDetails,
 );
 
 //cancel user appointment || post
