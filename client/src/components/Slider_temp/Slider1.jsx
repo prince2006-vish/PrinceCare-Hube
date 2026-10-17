@@ -13,7 +13,7 @@ const Slider = () => {
 
         <Carousel.Caption>
           <h3></h3>
-          <p>Welcome to Hospital</p>
+          <p>Welcome to Hospitals</p>
         </Carousel.Caption>
       </Carousel.Item>
 
