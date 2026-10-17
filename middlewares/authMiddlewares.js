@@ -1,21 +1,17 @@
 import JWT from "jsonwebtoken";
 import userModel from "../models/userModel.js";
-
-// user auth
+//user auth
 export const userAuth = async (req, res, next) => {
   try {
     const token = req.headers.authorization;
-
     if (!token) {
       return res.status(402).send({
         success: false,
         message: "Not Authorize User",
       });
     }
-
     const decode = JWT.verify(token, process.env.JWT_SECRET);
     req.user = decode;
-
     next();
   } catch (error) {
     console.log(error);
@@ -27,24 +23,24 @@ export const userAuth = async (req, res, next) => {
   }
 };
 
-// admin auth
+//admin auth
 export const isAdmin = async (req, res, next) => {
   try {
     const user = await userModel.findById(req.user.id);
-
     if (!user.isAdmin) {
+      // {if(user.isAdmin )}  all user can access admin panel
       return res.status(402).send({
         success: false,
-        message: "Unauthorized Access",
+        message: "Unatuhorized Access",
       });
+    } else {
+      next();
     }
-
-    next();
   } catch (error) {
     console.log(error);
     res.status(402).send({
       success: false,
-      message: "Error in Admin Auth",
+      message: "Error in Adim Auth",
       error,
     });
   }
